@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="440" viewBox="0 0 860 440">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<g font-family="Arial, sans-serif" font-size="13" fill="#243247">
+<text x="90" y="28" font-size="18">scalar: full-objective loss</text>
+<text x="90" y="49">Equal lr=0.1; lower is better; logarithmic y-axis</text>
+<path d="M90 355.00h720" stroke="#e1e7ef"/>
+<text x="78" y="359.00" text-anchor="end">1e-3</text>
+<path d="M90 283.75h720" stroke="#e1e7ef"/>
+<text x="78" y="287.75" text-anchor="end">1e-2</text>
+<path d="M90 212.50h720" stroke="#e1e7ef"/>
+<text x="78" y="216.50" text-anchor="end">1e-1</text>
+<path d="M90 141.25h720" stroke="#e1e7ef"/>
+<text x="78" y="145.25" text-anchor="end">1e0</text>
+<path d="M90 70.00h720" stroke="#e1e7ef"/>
+<text x="78" y="74.00" text-anchor="end">1e1</text>
+<text x="90.00" y="380" text-anchor="middle">0</text>
+<text x="234.00" y="380" text-anchor="middle">4</text>
+<text x="378.00" y="380" text-anchor="middle">8</text>
+<text x="522.00" y="380" text-anchor="middle">12</text>
+<text x="666.00" y="380" text-anchor="middle">16</text>
+<text x="810.00" y="380" text-anchor="middle">20</text>
+<polyline fill="none" stroke="#2463c5" stroke-width="2.2" points="90.00,94.71 126.00,101.23 162.00,107.75 198.00,114.27 234.00,120.79 270.00,127.31 306.00,133.83 342.00,140.35 378.00,146.87 414.00,153.39 450.00,159.91 486.00,166.43 522.00,172.95 558.00,179.47 594.00,185.99 630.00,192.52 666.00,199.04 702.00,205.56 738.00,212.08 774.00,218.60 810.00,225.12"/>
+<text x="90" y="408" fill="#2463c5">SGD</text>
+<polyline fill="none" stroke="#d27611" stroke-width="2.2" points="90.00,94.71 126.00,101.23 162.00,115.04 198.00,139.36 234.00,186.53 270.00,313.48 306.00,178.89 342.00,146.13 378.00,131.35 414.00,125.94 450.00,127.49 486.00,135.60 522.00,151.45 558.00,179.35 594.00,238.01 630.00,278.21 666.00,200.27 702.00,173.36 738.00,161.20 774.00,157.55 810.00,160.63"/>
+<text x="330" y="408" fill="#d27611">Momentum</text>
+<polyline fill="none" stroke="#16875c" stroke-width="2.2" points="90.00,94.71 126.00,96.81 162.00,98.98 198.00,101.22 234.00,103.54 270.00,105.95 306.00,108.44 342.00,111.02 378.00,113.70 414.00,116.48 450.00,119.36 486.00,122.36 522.00,125.48 558.00,128.72 594.00,132.10 630.00,135.62 666.00,139.29 702.00,143.12 738.00,147.13 774.00,151.32 810.00,155.72"/>
+<text x="570" y="408" fill="#16875c">Adam</text>
+<text x="450" y="395" text-anchor="middle">step</text>
+<text x="90" y="432" font-size="11">Losses below 1e-12 are plotted at 1e-12; see CSV for exact values.</text>
+</g></svg>
